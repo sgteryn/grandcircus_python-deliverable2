@@ -74,13 +74,13 @@ subtotal_for_apples = apples_to_buy * apple_price
 subtotal_for_grapes = grapes_to_buy * grape_price
 subtotal_for_oranges = oranges_to_buy * orange_price
 subtotal = subtotal_for_apples + subtotal_for_oranges + subtotal_for_grapes
-print(f"Subtotal: {subtotal}")
+print(f"Subtotal: ${subtotal}.00")
 
 # Step 7: Find and print the tax (5%)
 tax = subtotal * 0.05
-print(f"5% Tax: {tax}")
+print(f"5% Tax: ${tax}")
 
 # Step 8: add the subtotal and tax to get the receipt total.
 # - Print that
 total = subtotal + tax
-print(f"Total:{total} ")
+print(f"Total: ${total} ")
